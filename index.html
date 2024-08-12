@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - FRONT-END</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+            <a class="navbar-brand" href="#">Crud FRONT END</a>
+            <form class="d-flex my-lg-4">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#bemVindo">Home <span class="visually-hidden">(Página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carouselExampleCaptions">Carrossel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="htmlCrud/crud.html" target="_blank">Menu de Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#card">Desenvolvedor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rodapePainho">Rodapé</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <br><br><br><br><br>
+        <div class="container-flex" id="bemVindo">
+            <h1>Bem-vindo</h1>
+            <P>Aqui está meu projeto de desenvolvimento de um crud para a aula de residência 3 com o renomado professor
+                Wagner. O front que eu fiz foi para praticar pois não sou bom nisso, mas pelo que vocês podem ver,
+                <strong>tô no caminho</strong>...
+            </P>
+        </div>
+        <br><br><br>
+
+        <div class="container" id="textoCarrosselTopo">
+            <h1>Aqui você guarda seus dados de forma segura</h1>
+            <p>Há décadas sabemos que necessitamos de alguma plataforma que armazene tudo que quisermos. Com certeza
+                você já esqueceu suas senhas diversas vezes. <a href="htmlCrud/crud.html" target="_blank">Cadastre-se
+                    aqui</a> e salve tudo que quiser. 100% seguro <strong>CONFIA</strong>.</p>
+        </div>
+
+        <div class="container" id="carrosel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="htmlCrud/crud.html" target="_blank"><img src="imagens/cadastro.jpg"
+                                class="d-block w-100" alt="Imagem de cadastro"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CADASTRE-SE EM NOSSA PÁGINA</h5>
+                            <p>De maneira simples e fácil você consegue ter aquelas informações que tanto deseja</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carrossel2.jpg" class="d-block w-100" alt="Imagem do carrossel 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Reconhecimento no mercado</h5>
+                            <p>Somos os novos pequenos gafanhotos!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/homem-com-o-polegar-para-cima_1368-6353.avif" class="d-block w-100"
+                            alt="Imagem placeholder">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Avalie nosso atendimento</h5>
+                            <p>Em qualquer momento procure o desenvolvedor dessa página e dê sua opinião sobre o que
+                                achou.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime dolorem ullam consectetur nihil! Officiis fugit, praesentium mollitia porro necessitatibus blanditiis dolorem sapiente quis perspiciatis aperiam. Voluptatem provident commodi corrupti.</p>
+        </div>
+        <br><br><br>
+    </main>
+
+    <aside>
+        <div class="container" id="cardTexto">
+            <h1>informações do dev</h1>
+            <div class="card" id="card" style="width: 18rem;">
+                <img src="imagens/dev.jpg" width="100px" height="600px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Antônio de Pádua</h5>
+                    <p class="card-text">Idade:20 anos<br><br>Estudante do Embarque digital pela FICR<br><br>Possivelmente seu colega de classe<br><br>Onde me encontrar?<strong>as vezes, literalmente do seu lado</strong></p>
+                    <a href="https://www.linkedin.com/in/antonio-de-padua-385511288/" class="btn btn-primary" target="_blank">LinkedIn</a>
+                    <a href="https://www.instagram.com/antonio.lopes_21/" class="btn btn-primary" id="instagram" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+        </div>
+    </aside>
+
+    <footer id="rodapePainho">
+        <h1>footer</h1>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
